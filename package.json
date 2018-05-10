@@ -1,6 +1,6 @@
 {
   "name": "frs-table",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Table/data grid component written with having efficiency & usefulness in mind.",
   "main": "index.js",
   "scripts": {
