@@ -1,0 +1,63 @@
+{
+  "name": "frs-table",
+  "version": "0.1.0",
+  "description": "Table/data grid component written with having efficiency & usefulness in mind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js",
+    "test-coverage": "yarn test --cov --coverage-report=lcov",
+    "prestart": "yarn clean",
+    "start": "parcel watch",
+    "prebuild": "yarn clean",
+    "build": "parcel build index.js -o FRS-table --detailed-report && parcel build docs/example.src.html -d docs -o example.dist",
+    "postbuild": "yarn docs",
+    "prepublishOnly": "yarn test-coverage && yarn build",
+    "postpublish": "git add dist && git push origin --all && git push origin --tags",
+    "predevExample": "yarn clean",
+    "devExample": "parcel docs/example.src.html --open -d docs -o example.dist",
+    "clean": "rimraf dist/**/* && rimraf docs/*.dist.html && rimraf docs/*.{js,css,map} && rimraf report.html",
+    "docs": "jsdoc2md src/**/*.js > docs/api.md"
+  },
+  "author": "FRS <jakub.freisler@gmail.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/FRSolutions/FRS-table#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRSolutions/FRS-table.git"
+  },
+  "keywords": [
+    "table",
+    "data-grid",
+    "grid",
+    "js",
+    "javascript",
+    "efficient",
+    "accessibility",
+    "lightweight",
+    "simple",
+    "extensible"
+  ],
+  "files": [
+    "dist/",
+    "src/",
+    "LICENSE",
+    "yarn.lock"
+  ],
+  "bugs": {
+    "url": "https://github.com/FRSolutions/FRS-table/issues"
+  },
+  "devDependencies": {
+    "axe-core": "^3.0.2",
+    "jsdoc-to-markdown": "^4.0.1",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.7.1",
+    "parcel-plugin-bundle-visualiser": "^1.0.2",
+    "postcss-import": "^11.1.0",
+    "postcss-reporter": "^5.0.0",
+    "precss": "^3.1.2",
+    "puppeteer": "^1.3.0",
+    "rimraf": "^2.6.2",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {}
+}

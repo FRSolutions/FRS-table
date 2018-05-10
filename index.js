@@ -1,0 +1,1 @@
+require('./src/FRS-table.js');

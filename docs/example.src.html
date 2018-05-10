@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="../src/FRS-table.js"></script>
+</head>
+<body>
+<script type="application/javascript">
+  var calendar = new FRSTable({
+    column: {
+      data: [
+        {
+          sticky: true,
+          row   : ['19.00', '20.00', '21.00']
+        }, {
+          label: 'A',
+          row  : [
+            '',
+            '<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b>',
+            ''
+          ]
+        }, {
+          label: 'B',
+          row  : [
+            '', '', ''
+          ]
+        }, {
+          label: 'C',
+          row  : [
+            '', '', ''
+          ]
+        }, {
+          label: 'D',
+          row  : [
+            '', '', ''
+          ]
+        }
+      ]
+    }
+  });
+
+  console.log(calendar);
+
+  document.body.insertAdjacentElement('afterBegin', calendar.getElement());
+
+  calendar.boxAdd({
+    text : 'Przykładowe wydarzenie Przykładowe wydarzenie',
+    x    : 1,
+    y    : 0.75,
+    size : 1.25,
+    style: {
+      background : 'rgba(55, 55, 55, .6)',
+      'font-size': '28px'
+    }
+  });
+
+  calendar.boxAdd({
+    text: 'yo',
+    x   : 2,
+    y   : 2,
+    size: .75
+  });
+</script>
+</body>
+</html>
