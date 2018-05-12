@@ -1,9 +1,9 @@
 {
   "name": "frs-table",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Table/data grid component written with having efficiency & usefulness in mind.",
   "main": "index.js",
-  "scripts"        : {
+  "scripts": {
     "test": "tap test/*.js",
     "test-coverage": "yarn test --cov --coverage-report=lcov",
     "prestart": "yarn clean",
@@ -18,14 +18,14 @@
     "clean": "rimraf dist/**/* && rimraf docs/*.dist.html && rimraf docs/*.{js,css,map} && rimraf report.html",
     "docs": "jsdoc2md src/**/*.js > docs/api.md"
   },
-  "author"         : "Jakub Freisler <FRSgit@users.noreply.github.com>",
-  "license"        : "Apache-2.0",
-  "homepage"       : "https://github.com/FRSource/FRS-table#readme",
-  "repository"     : {
+  "author": "Jakub Freisler <FRSgit@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/FRSource/FRS-table#readme",
+  "repository": {
     "type": "git",
-    "url" : "git+https://github.com/FRSource/FRS-table.git"
+    "url": "git+https://github.com/FRSource/FRS-table.git"
   },
-  "keywords"       : [
+  "keywords": [
     "table",
     "data-grid",
     "grid",
@@ -37,13 +37,13 @@
     "simple",
     "extensible"
   ],
-  "files"          : [
+  "files": [
     "dist/",
     "src/",
     "LICENSE",
     "yarn.lock"
   ],
-  "bugs"           : {
+  "bugs": {
     "url": "https://github.com/FRSource/FRS-table/issues"
   },
   "devDependencies": {
@@ -59,5 +59,5 @@
     "rimraf": "^2.6.2",
     "tape": "^4.9.0"
   },
-  "dependencies"   : {}
+  "dependencies": {}
 }
