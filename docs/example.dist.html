@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="/FRS-table.c7a6c97e.js"></script>
-<link rel="stylesheet" href="/FRS-table.c7a6c97e.css"></head>
+  <script src="/FRS-table.a1d5619d.js"></script>
+  <link rel="stylesheet" href="/FRS-table.a1d5619d.css">
+</head>
 <body>
 <script type="application/javascript">
-  const calendar = new FRSTable({
+  var calendar = new FRSTable({
     column: {
       data: [
         {
@@ -43,7 +44,7 @@
   document.body.insertAdjacentElement('afterBegin', calendar.getElement());
 
   calendar.boxAdd({
-    text : 'Przykładowe wydarzenie Przykładowe wydarzenie',
+    html : 'Przykładowe wydarzenie Przykładowe wydarzenie',
     x    : 1,
     y    : 0.75,
     size : 1.25,
@@ -54,7 +55,7 @@
   });
 
   calendar.boxAdd({
-    text: 'yo',
+    html: '<b>yo</b>',
     x   : 2,
     y   : 2,
     size: .75

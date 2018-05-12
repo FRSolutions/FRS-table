@@ -31,7 +31,7 @@ function generate (_options) {
   var box = window.document.createElement('div');
   box.classList.add(cfg.box.class);
 
-  box.innerText  = _options.text;
+  box.innerHTML  = _options.html;
   _options.style = extendIfUndefined(_options.style || {}, cfg.box.style);
 
   return elementHandleStyling(box, _options);
