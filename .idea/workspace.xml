@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9743b7a0-5341-43c3-9a8c-b6bcd6e081c0" name="Default" comment="Fixed naming of files returned by parcel.">
+    <list default="true" id="9743b7a0-5341-43c3-9a8c-b6bcd6e081c0" name="Default" comment="Moved from innerText to innerHTML in Box model.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FRS-table.c7a6c97e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FRS-table.c7a6c97e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FRS-table.c7a6c97e.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/example.dist.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/example.dist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/example.src.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/example.src.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/Box.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/Box.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/Utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.src.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="example.src.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/example.src.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -56,8 +51,17 @@
       <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="212">
+              <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -65,7 +69,7 @@
       <file leaf-file-name="Box.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/Box.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="255">
               <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
             </state>
           </provider>
@@ -87,7 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>out-file</find>
       <find>frs-clndr</find>
       <find>destroy</find>
       <find>-'</find>
@@ -117,6 +120,7 @@
       <find>row</find>
       <find>stickyInner</find>
       <find>open</find>
+      <find>HAndler</find>
     </findStrings>
     <replaceStrings>
       <replace>frs-table</replace>
@@ -138,6 +142,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,16 +164,16 @@
         <option value="$PROJECT_DIR$/src/scripts/DEFAULTS.constant.js" />
         <option value="$PROJECT_DIR$/src/scripts/box.js" />
         <option value="$PROJECT_DIR$/src/styles/FRSTable.scss" />
-        <option value="$PROJECT_DIR$/src/scripts/Utils.js" />
         <option value="$PROJECT_DIR$/src/scripts/HTMLGenerators.js" />
         <option value="$PROJECT_DIR$/src/scripts/FRSTable.js" />
         <option value="$PROJECT_DIR$/src/scripts/ElementGenerators.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/docs/api.md" />
         <option value="$PROJECT_DIR$/docs/example.dist.html" />
         <option value="$PROJECT_DIR$/src/scripts/Box.js" />
         <option value="$PROJECT_DIR$/docs/example.src.html" />
+        <option value="$PROJECT_DIR$/src/scripts/Utils.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -307,12 +314,21 @@
       <workItem from="1526076004725" duration="371000" />
       <workItem from="1526076386783" duration="4425000" />
       <workItem from="1526083103948" duration="2000" />
-      <workItem from="1526091343002" duration="360000" />
+      <workItem from="1526091343002" duration="441000" />
+      <workItem from="1526091908446" duration="1363000" />
     </task>
+    <task id="LOCAL-00001" summary="Moved from innerText to innerHTML in Box model.">
+      <created>1526091773128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526091773130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58534000" />
+    <option name="totallyTimeSpent" value="59978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,14 +343,14 @@
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.18194349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.18194349" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003446" side_tool="true" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
       <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" weight="0.18194349" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996554" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996554" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -382,7 +398,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed naming of files returned by parcel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed naming of files returned by parcel." />
+    <MESSAGE value="Moved from innerText to innerHTML in Box model." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved from innerText to innerHTML in Box model." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -489,13 +506,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../FRS-table-calendar/index.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -503,11 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/pobrany plik (1)">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/pobrany plik (1)" />
     <entry file="file://$PROJECT_DIR$/src/scripts/FRSTable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -535,13 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/FRS-table.c7a6c97e.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="133" column="10" lean-forward="true" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/FRS-table.c7a6c97e.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -549,24 +549,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/Box.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="255">
           <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/example.src.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        <state relative-caret-position="280">
+          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -48,7 +48,7 @@ export function attachEvents (_el, _events) {
 }
 
 export function attachEvent (_el, _event, _eventObj) {
-  _el.addEventHandler(_event, _eventObj.handler, _eventObj.options);
+  _el.addEventListener(_event, _eventObj.handler, _eventObj.options);
 }
 
 export function deattachEvents (_el, _events) {
@@ -66,7 +66,7 @@ export function deattachEvents (_el, _events) {
 }
 
 export function deattachEvent (_el, _event, _eventObj) {
-  _el.removeEventHandler(_event, _eventObj.handler);
+  _el.removeEventListener(_event, _eventObj.handler);
 }
 
 export function elementHandleStyling (_el, _options) {
